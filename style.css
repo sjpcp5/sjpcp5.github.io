@@ -15,14 +15,14 @@ body {
   /* Typography */
   font-size: 18px;
   line-height: 150%;
-  color: #333;
+  color: #777777;
 
   /* Visual */
-  background: #efeee7;
+  background: #4aaaa5;
 }
 
 header {
-  background: #d21034;
+  background: #ffffff;
 }
 
 h1 {
@@ -35,11 +35,11 @@ h1 {
   font-size: 28px;
 
   /* Typography */
-  color: #eee;
+  color: #ffffff;
   text-align: center;
 
   /* Visual */
-  background: #333;
+  background: #4aaaa5;
 }
 
 h2 {
