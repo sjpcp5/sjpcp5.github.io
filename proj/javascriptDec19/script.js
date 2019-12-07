@@ -8,13 +8,18 @@ var kidtvshow = 'Baby Shark'
 
 
 name = prompt('What is your name?')
-age = prompt('What is your name?')
+age = prompt('What is your age?')
 hometown = prompt('What is your hometown?')
 favoritefood = prompt('What is your favorite food?')
 
-if (age > 18) {
-     alert('Watch some' +adulttshow);
+console.log('value of age is' + age);
+
+if (age > 17) {
+    console.log('age is greater than or equal to 18');
+     alert('Watch some ' + adulttshow);
 } else { 
-    alert('Watch some' + kidtvshow);
+    console.log('age is less than 18');
+    alert('Watch some ' + kidtvshow);
 }
-alert('Hey there ' + name + ' ('+ age +') from'+ hometown +'!')
+alert('Hey there ' + name + ' (' + age + ') from ' + hometown + '!')
+alert('Person\'s age is \n' + age);
