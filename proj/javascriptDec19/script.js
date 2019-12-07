@@ -21,10 +21,10 @@ console.log('value of age is' + age);
 
 if (age > 17) {
     console.log('age is greater than or equal to 18');
-     alert('Watch some ' + adulttshow);
+        alert('Watch some ' + adulttshow);
 } else { 
     console.log('age is less than 18');
-    alert('Watch some ' + kidtvshow);
+        alert('Watch some ' + kidtvshow);
 }
 alert('Hey there ' + name + ' (' + age + ') from ' + hometown + '!')
 alert('Person\'s age is \n' + age);
