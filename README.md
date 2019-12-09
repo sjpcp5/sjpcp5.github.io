@@ -25,7 +25,7 @@ Hiring requirements:
 * $500 per a web page 
 * $150 an hour for web apps
 
-**Services render to be paid in Bitcoin or Etheruem**
+**Services rendered to be paid in Bitcoin or Etheruem**
 
 ## Contact Information:
 
