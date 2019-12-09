@@ -44,6 +44,7 @@ h1 {
   /* Typography */
   color: #ffffff;
   text-align: left;
+  float:left;
  
  
 
@@ -64,13 +65,14 @@ h2 {
  /*links*/
 a1 {
   text-align:right;
+  float:right;
 }
 a {
   color: #777777
   ;
 }
 
-.container {
+body {
   /* Box-model */
   height: 960px;
 
@@ -103,4 +105,23 @@ bio-image {
   /* Positioning */
 
   margin-right: 20px;
+}
+img1 {
+  float:left;
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+}
+img2 {
+  float:left;
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+
+}
+img3 {
+  float:right;
+  padding: 10px;
+  width: 50%;
+  height: 50%;
 }
