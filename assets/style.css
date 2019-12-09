@@ -19,7 +19,7 @@ body {
   line-height: 150%;
   color: #777777;
   clear: right;
-  float: right; 
+  float: left; 
 
   /* Visual */
   background: #ffffff;
@@ -62,7 +62,7 @@ h2 {
   text-align:left;
 
 }
- /*links*/
+ /*links for nav*/
 a1 {
   text-align:right;
   float:right;
@@ -84,7 +84,7 @@ body {
 #main-bio,
 #contact-info,
 
-
+/*paragraph*/
 main-bio {
   padding: 10px;
   width: 50%;
@@ -101,11 +101,10 @@ bio-image {
   width: 200px;
   height: 200px;
   align-items: left;
-
-  /* Positioning */
-
-  margin-right: 20px;
+  float:left;
 }
+
+/* Portfoilio images positioning */
 img1 {
   padding: 10px;
   width: 50%;
