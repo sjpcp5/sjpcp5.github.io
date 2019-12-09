@@ -100,28 +100,28 @@ bio-image {
   padding: 10px;
   width: 200px;
   height: 200px;
-  float: left;
+  align-items: left;
 
   /* Positioning */
 
   margin-right: 20px;
 }
 img1 {
-  float:left;
   padding: 10px;
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  
 }
 img2 {
-  float:left;
   padding: 10px;
-  width: 50%;
-  height: 50%;
-
+  width: 200px;
+  height: 200px;
+  align-items: center;
 }
 img3 {
-  float:right;
   padding: 10px;
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
+  float: right;
 }
