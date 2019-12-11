@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Looping Through Arrays</title>
+  </head>
+  <body>
+
+    <h1>LETS GAMBLE!</h1>
+
+    <script type='text/javascript'>
+
+    // sudo code I want to talk out without starting code
+    //data to think about score, my score and pc score, did I win variable, the game round #,
+    // my choice and computers choice of rock, paper, scissors
+    // var my score = 0
+    // var pc score = 0
+    // var myWins;
+    // var pcCHoice;
+    // var myChoice;
+    // -1st make a prompt 
+    // -random pc choice
+    // -compare "who won"
+    // give point to winner 'increment to winner score'
+    //repeat or 'for loop'
+    // print the score "console.log"
+      
+    var coin = ["heads", "tails"];
+    // var coin = ["rock", "paper", "scissors"]
+
+    var choice = prompt("User choose heads or tails.")
+
+    console.log('User picked ' + choice);
+    // below clock math 'modulus' the modulus is the remainder of 1 in division long hand
+    var random = Math.floor(random() * coin.length);
+    
+
+    console.log('Random was ' + random);
+
+    console.log('Coin flip was ' + coin[random]);
+
+   if (coin[random] === choice) {
+     alert("you guessed it!")
+   }
+
+
+  var flavor = ["vanilla, chocolate, blueberry, beer"];
+  
+  for (var index = 0; index < flavor, length; index = index + 1) {
+      console.log('index:' + index)
+  }
+      alert('You Like ' + )
+      
+      
+      
+      
+      
+      
+    </script>
+
+      
+  
+    
+  </body>
+</html>

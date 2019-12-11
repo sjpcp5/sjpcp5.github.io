@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Loops</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+      // Array of zoo animals.
+      var zooAnimals = ["Zebra", "Rhino", "Giraffe", "Owl"];
+      // append new value to the value using push
+      
+
+      var favAnimal = prompt('What is your favorite zoo animal?');
+
+      zooAnimals.push(favAnimal);
+      console.log(favAnimal);
+      // Rewrite the following code to print all of the animals using a for-loop.
+      
+      for (var i = 0; i < zooAnimals.length; i++) {
+       var lowerCasezooAnimals = zooAnimals[i].toLowerCase();
+        console.log('I love ' + lowerCasezooAnimals )
+      }
+      
+    </script>
+    
+  </body>
+</html>
