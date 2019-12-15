@@ -35,10 +35,10 @@ header {
 
 h1 {
   /* Box-model */
-  padding: 20px 40;
+  
 
   /* Positioning */
-  margin-bottom: 20px;
+  
   font-size: 28px;
 
   /* Typography */
@@ -56,20 +56,21 @@ h1 {
 }
 
 h2 {
+  padding: 60px;
   font-size: 24px;
   color: #4aaaa5;
   background: #ffffff;
-  text-align:left;
+  display: block;
+  float:none;
 
 }
  /*links for nav*/
-a1 {
-  text-align:right;
-  float:right;
-}
 a {
-  color: #777777
-  ;
+  padding: 5px;
+  color: #777777;
+  text-align: right;
+  display: inline;
+  float: right;
 }
 
 body {
@@ -91,8 +92,11 @@ p {
   overflow:right;
 }
 
-contact-info {
-  width: 30%;
+li {
+padding: 5px;
+float: left;
+
+ 
 }
 
 bio-image {
