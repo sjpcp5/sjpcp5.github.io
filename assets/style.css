@@ -85,7 +85,7 @@ body {
 #contact-info,
 
 /*paragraph*/
-main-bio {
+p {
   padding: 10px;
   width: 50%;
   overflow:right;
@@ -98,29 +98,17 @@ contact-info {
 bio-image {
   /* Box-model */
   padding: 10px;
-  width: 200px;
-  height: 200px;
-  align-items: left;
-  float:left;
+  width: 25%;
+  height: 25%;
+  display: block auto;
 }
 
 /* Portfoilio images positioning */
-img1 {
+img {
   padding: 10px;
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
   float: left;
-}
-img2 {
-  padding: 10px;
-  width: 50%;
-  height: 50%;
-  float: left;
+  display: block auto;
 
-}
-img3 {
-  padding: 10px;
-  width: 50%;
-  height: 50%;
-  float: right;
 }
