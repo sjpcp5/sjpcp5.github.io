@@ -35,10 +35,10 @@ header {
 
 h1 {
   /* Box-model */
-  
+  padding: 20px 40;
 
   /* Positioning */
-  
+  margin-bottom: 20px;
   font-size: 28px;
 
   /* Typography */
@@ -56,21 +56,20 @@ h1 {
 }
 
 h2 {
-  padding: 60px;
   font-size: 24px;
   color: #4aaaa5;
   background: #ffffff;
-  display: block;
-  float:none;
+  text-align:left;
 
 }
  /*links for nav*/
+a1 {
+  text-align:right;
+  float:right;
+}
 a {
-  padding: 5px;
-  color: #777777;
-  text-align: right;
-  display: inline;
-  float: right;
+  color: #777777
+  ;
 }
 
 body {
@@ -86,33 +85,42 @@ body {
 #contact-info,
 
 /*paragraph*/
-p {
+main-bio {
   padding: 10px;
   width: 50%;
   overflow:right;
 }
 
-li {
-padding: 5px;
-float: left;
-
- 
+contact-info {
+  width: 30%;
 }
 
 bio-image {
   /* Box-model */
   padding: 10px;
-  width: 25%;
-  height: 25%;
-  display: block auto;
+  width: 200px;
+  height: 200px;
+  align-items: left;
+  float:left;
 }
 
 /* Portfoilio images positioning */
-img {
+img1 {
   padding: 10px;
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   float: left;
-  display: block auto;
+}
+img2 {
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  float: left;
 
+}
+img3 {
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  float: right;
 }
