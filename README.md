@@ -21,6 +21,6 @@ A polished user interfaced site that is responsive, a palpatble color palette bo
 
 1. [Updated Portfolio](#https://sjpcp5.github.io)
 2. [GitHub Profile](#https://github.com/sjpcp5)
-3. [Updated Resume](#https://docs.google.com/document/d/1Yi6WkAwAysfM0et6wMnSco4jWMYs1Ovi/edit)
+3. [Updated Resume](#https://docs.google.com/document/d/e/2PACX-1vRHRHhQhJH4kmjDByV-VdU4Z7R4U0_dGQF7qz2G6N6_ynrVHC_ICwarZYfA5V7FIA/pub)
 4. [Updated LinkedIn](#https://www.linkedin.com/in/sjpcp5/)
 
